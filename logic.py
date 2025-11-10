@@ -32,5 +32,3 @@ class Pokemon:
 
     async def show_img(self):
         # An asynchronous method to retrieve the URL of a pokémon image via PokeAPI
-
-                

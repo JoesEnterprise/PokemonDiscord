@@ -1,4 +1,3 @@
-import aiohttp
 import discord
 from discord.ext import commands
 from config import token
@@ -36,6 +35,4 @@ async def go(ctx):
     else:
         await ctx.send("You've already created your own Pokémon.")  # A message that is printed whether a Pokémon has already been created
 # Running the bot
-
-                
 bot.run(token)
